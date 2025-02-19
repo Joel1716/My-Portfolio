@@ -462,3 +462,6 @@ select {
   font-weight: bold;
   cursor: pointer;
 }
+.contact-me-section .means-of-contact {
+  justify-self: start;
+}
