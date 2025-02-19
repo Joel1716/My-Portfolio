@@ -93,6 +93,9 @@
     font-size: 4rem;
     padding-top: 1rem;
   }
+  .contact-me {
+    padding: 1rem;
+  }
 }
 @media (max-width: 22em) {
   html {
