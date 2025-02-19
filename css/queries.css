@@ -7,6 +7,9 @@
   }
 }
 @media (max-width: 47em) {
+  main {
+  overflow-x: hidden;
+}
   .about-me-image-content,
   .certificates,
   .list-of-projects {
