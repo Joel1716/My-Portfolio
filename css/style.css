@@ -33,6 +33,9 @@ body::-webkit-scrollbar {
 section {
   scroll-margin-top: 8rem;
 }
+main {
+  overflow-x: hidden;
+}
 .animate.hero-section .hero-texts,
 .about-me-image-content.animate .my-pic-container {
   transform: translate3D(0, 10rem, 0);
