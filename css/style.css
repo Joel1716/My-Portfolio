@@ -86,13 +86,8 @@ main {
 /* HOME-SECTION */
 
 .hero-section {
-  /* margin-top: 2rem; */
   padding: 0 0 0 2rem;
   margin-bottom: 11rem;
-  /* display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  gap: 2rem;
-  align-items: center; */
 }
 .hero-texts {
   margin-top: 5rem;
@@ -153,7 +148,6 @@ h3,
   display: inline-block;
   padding: 1rem 1.5rem;
   border-radius: 5px;
-  /* flex-grow: 1; */
   text-align: center;
   text-decoration: none;
   background-color: var(--button-hover);
@@ -465,4 +459,9 @@ select {
 }
 .contact-me-section .means-of-contact {
   justify-self: start;
+}
+.status-message {
+  display: none;
+  color: var(--main-color);
+  font-size: 1.2rem;
 }
