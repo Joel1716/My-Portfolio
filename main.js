@@ -1,3 +1,4 @@
+import { tech, profiles } from "data.js";
 //// ANIMATE ON SCROLL
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
