@@ -36,7 +36,7 @@ export const profiles = [
     link: "https://cgpa-gpa-calculator.vercel.app/",
   },
   {
-    img: "/images/Project-2.PNG",
+    img: "/images/project-2.PNG",
     title: "Fylo Landing Page",
     type: "Web",
     message:
@@ -45,7 +45,7 @@ export const profiles = [
     link: "https://fylo-landing-page-three-zeta.vercel.app/",
   },
   {
-    img: "/images/Project-4.PNG",
+    img: "/images/project-4.PNG",
     title: "Mortgage Calculator",
     type: "Web",
     message:
@@ -54,7 +54,7 @@ export const profiles = [
     link: "https://mortgage-calculator-lac.vercel.app/",
   },
   {
-    img: "/images/Project-5.PNG",
+    img: "/images/project-5.PNG",
     title: "Base-Apparel",
     type: "Web",
     message:
