@@ -33,7 +33,7 @@ export const profiles = [
     message:
       "Global Info is an interactive web application that displays countries worldwide with their flags and essential information. Clicking on any country reveals detailed information about that nation. Currently built with JSON data, the project will be enhanced with RESTful API integration in future updates. This showcase demonstrates my skills in interactive UI development, data manipulation, and responsive design implementation.",
     languages: ["HTML", "CSS", "Javascript"],
-    link: " https://joel1716.github.io/Country-generation-with-API/",
+    link: "https://github.com/Joel1716/Country-generation-with-API",
   },
   {
     img: "/images/Project-3.PNG",
