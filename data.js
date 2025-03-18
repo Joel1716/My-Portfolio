@@ -22,9 +22,18 @@ export const profiles = [
     title: "Whatsapp Project",
     type: "Mobile",
     message:
-      "A replica of the Whatsapp mobile that gives you the freedom to click on any profile, send as many messages as you want with the exact time, be able to go back and repeat for other profiles but the beauty is the ability to go to a previous profile and meet the exact messages that where sent there.",
+      "WhatsApp Replica is an interactive messaging simulation that reproduces the WhatsApp mobile experience. Users can select different profiles, exchange messages with accurate timestamps, and navigate between conversations while maintaining message history. The application preserves conversation states across sessions, allowing users to return to any previous chat and find their message history intact. This project demonstrates my proficiency in frontend development, state management that mirror popular applications.",
     languages: ["HTML", "CSS", "Javascript"],
     link: "https://whatsapp-page-nine.vercel.app/",
+  },
+  {
+    img: "/images/countries.PNG",
+    title: "Global Info",
+    type: "Web",
+    message:
+      "Global Info is an interactive web application that displays countries worldwide with their flags and essential information. Clicking on any country reveals detailed information about that nation. Currently built with JSON data, the project will be enhanced with RESTful API integration in future updates. This showcase demonstrates my skills in interactive UI development, data manipulation, and responsive design implementation.",
+    languages: ["HTML", "CSS", "Javascript"],
+    link: " https://joel1716.github.io/Country-generation-with-API/",
   },
   {
     img: "/images/Project-3.PNG",
@@ -58,17 +67,8 @@ export const profiles = [
     title: "Base-Apparel",
     type: "Web",
     message:
-      " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam inventore veritatis ex accusamus, corporis officia. Repudiandae aperiam voluptatem architecto esse a adipisci fugit veniam aliquid officia, id, iusto, aut neque.",
+      "It is a responsive component that provides real-time validation for email inputs. It displays error messages when users enter incorrectly formatted email addresses, enhancing user experience through immediate feedback. This solution demonstrates my attention to detail in form validation.",
     languages: ["HTML", "CSS", "Javascript"],
     link: "https://joel1716.github.io/Base-apparel/",
-  },
-  {
-    img: "/images/Project-1.PNG",
-    title: "Whatsapp Project",
-    type: "Mobile",
-    message:
-      "A replica of the Whatsapp mobile that gives you the freedom to click on any profile, send as many messages as you want with the exact time, be able to go back and repeat for other profiles but the beauty is the ability to go to a previous profile and meet the exact messages that where sent there.",
-    languages: ["HTML", "CSS", "Javascript"],
-    link: "https://whatsapp-page-nine.vercel.app/",
   },
 ];
