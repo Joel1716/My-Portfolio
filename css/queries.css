@@ -1,0 +1,105 @@
+@media (max-width: 56em) {
+  html {
+    font-size: 50%;
+  }
+  .content {
+    line-height: 2.2;
+  }
+}
+@media (max-width: 47em) {
+  .about-me-image-content,
+  .certificates,
+  .list-of-projects {
+    grid-template-columns: 1fr;
+  }
+  .my-pic-container {
+    justify-self: center;
+  }
+  .my-pic {
+    width: 60rem;
+    height: 60re;
+  }
+  /* header {
+    position: static;
+  } */
+  .icons .close {
+    display: none;
+  }
+  .icons {
+    display: flex;
+    flex-direction: column;
+    z-index: 99999;
+  }
+
+  nav {
+    margin-right: 0;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 1px solid var(--main-color);
+    position: absolute;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+    top: 1px;
+    right: 0;
+    width: 60%;
+    /* max-width: 40rem; */
+    height: auto;
+    transform: translateX(100%);
+    display: none;
+    flex-direction: column;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    visibility: hidden;
+  }
+  nav a:link,
+  nav a:visited {
+    font-size: 2.2rem;
+  }
+  header.open .menu {
+    display: none;
+  }
+  header.open .close {
+    display: block;
+  }
+  header.open nav {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+  }
+}
+@media (max-width: 32em) {
+  html {
+    font-size: 43.75%;
+  }
+  .my-pic {
+    width: 45rem;
+    height: 45rem;
+  }
+  .about-me-image-content {
+    padding: 0 1.5rem 0 1.5rem;
+  }
+  .hero-section {
+    padding: 0 0 0 1rem;
+  }
+  .career-message {
+    font-size: 2.7rem;
+    padding: 1rem 0;
+  }
+  h1 {
+    font-size: 4rem;
+    padding-top: 1rem;
+  }
+  .contact-me {
+    padding: 1rem;
+  }
+}
+@media (max-width: 22em) {
+  html {
+    font-size: 37.5%;
+  }
+  .my-pic {
+    width: 40rem;
+    height: 40rem;
+  }
+}
