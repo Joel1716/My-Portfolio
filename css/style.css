@@ -86,13 +86,8 @@ main {
 /* HOME-SECTION */
 
 .hero-section {
-  /* margin-top: 2rem; */
   padding: 0 0 0 2rem;
   margin-bottom: 11rem;
-  /* display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  gap: 2rem;
-  align-items: center; */
 }
 .hero-texts {
   margin-top: 5rem;
@@ -153,7 +148,6 @@ h3,
   display: inline-block;
   padding: 1rem 1.5rem;
   border-radius: 5px;
-  /* flex-grow: 1; */
   text-align: center;
   text-decoration: none;
   background-color: var(--button-hover);
@@ -190,8 +184,7 @@ h3,
 }
 .twitter,
 .linkedln,
-.github,
-.instagram {
+.github {
   display: inline-block;
   text-decoration: none;
   padding: 1rem;
@@ -200,8 +193,7 @@ h3,
 }
 .devicon-twitter-original.colored,
 .devicon-linkedin-plain:before,
-.devicon-github-original.colored,
-.fa-brands:before {
+.devicon-github-original.colored {
   display: inline-block;
   color: white;
   font-size: 2rem;
@@ -221,9 +213,6 @@ h3,
   padding: 0 1.5rem 0 4rem;
   align-self: start;
   margin-bottom: 5rem;
-}
-.my-pic-container {
-  max-width: 63rem;
 }
 .my-pic {
   width: 100%;

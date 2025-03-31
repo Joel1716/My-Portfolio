@@ -19,7 +19,7 @@ export const tech = [
 export const profiles = [
   {
     img: "/images/Project-1.PNG",
-    title: "Whatsapp Replica",
+    title: "Whatsapp Project",
     type: "Mobile",
     message:
       "WhatsApp Replica is an interactive messaging simulation that reproduces the WhatsApp mobile experience. Users can select different profiles, exchange messages with accurate timestamps, and navigate between conversations while maintaining message history. The application preserves conversation states across sessions, allowing users to return to any previous chat and find their message history intact. This project demonstrates my proficiency in frontend development, state management that mirror popular applications.",
@@ -33,7 +33,7 @@ export const profiles = [
     message:
       "Global Info is an interactive web application that displays countries worldwide with their flags and essential information. Clicking on any country reveals detailed information about that nation. Currently built with JSON data, the project will be enhanced with RESTful API integration in future updates. This showcase demonstrates my skills in interactive UI development, data manipulation, and responsive design implementation.",
     languages: ["HTML", "CSS", "Javascript"],
-    link: " https://joel1716.github.io/Country-generation-with-API/",
+    link: "https://country-generation-with-api.vercel.app/",
   },
   {
     img: "/images/Project-3.PNG",
@@ -45,7 +45,7 @@ export const profiles = [
     link: "https://cgpa-gpa-calculator.vercel.app/",
   },
   {
-    img: "/images/Project-2.PNG",
+    img: "/images/project-2.PNG",
     title: "Fylo Landing Page",
     type: "Web",
     message:
@@ -54,7 +54,7 @@ export const profiles = [
     link: "https://fylo-landing-page-three-zeta.vercel.app/",
   },
   {
-    img: "/images/Project-4.PNG",
+    img: "/images/project-4.PNG",
     title: "Mortgage Calculator",
     type: "Web",
     message:
@@ -63,7 +63,7 @@ export const profiles = [
     link: "https://mortgage-calculator-lac.vercel.app/",
   },
   {
-    img: "/images/Project-5.PNG",
+    img: "/images/project-5.PNG",
     title: "Base-Apparel",
     type: "Web",
     message:
