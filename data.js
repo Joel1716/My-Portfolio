@@ -67,7 +67,7 @@ export const profiles = [
     title: "Base-Apparel",
     type: "Web",
     message:
-      " It is a responsive component that provides real-time validation for email inputs. It displays error messages when users enter incorrectly formatted email addresses, enhancing user experience through immediate feedback. This solution demonstrates my attention to detail in form validation.",
+      "It is a responsive component that provides real-time validation for email inputs. It displays error messages when users enter incorrectly formatted email addresses, enhancing user experience through immediate feedback. This solution demonstrates my attention to detail in form validation.",
     languages: ["HTML", "CSS", "Javascript"],
     link: "https://joel1716.github.io/Base-apparel/",
   },
