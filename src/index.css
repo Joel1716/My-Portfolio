@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-border-color: #a78bfa59;
+  --color-primary: #07070f;
+  --color-primary-accent: #a78bfa;
+  --color-fg-muted: #7878a0;
+}
+
+@layer base {
+  body {
+    @apply bg-primary text-[14px] text-slate-200;
+  }
+  h2 {
+    @apply pt-15 text-base text-primary-accent uppercase;
+  }
+  h2 + p {
+    @apply text-white text-3xl mt-3 mb-6 font-extrabold;
+  }
+}
+
+@layer components {
+  .btn-purple {
+    @apply inline-flex items-center gap-2 text-sm font-semibold tracking-[0.01em] bg-violet-500 text-[#07070f] px-7 py-3 rounded transition-all duration-200 hover:opacity-90 hover:-translate-y-0.5;
+  }
+}
