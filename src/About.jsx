@@ -1,7 +1,7 @@
 import { FaLongArrowAltRight } from "react-icons/fa";
 export default function About() {
   return (
-    <section className="px-4">
+    <section className="px-4 pb-10">
       <h2>About</h2>
       <p>Who I am</p>
       <div className="grid lg:grid-cols-[1fr_1.5fr] gap-7 lg:gap-7 lg:mx-5">

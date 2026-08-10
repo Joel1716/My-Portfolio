@@ -13,7 +13,7 @@
   }
 
   h2 {
-    @apply pt-15 text-base text-primary-accent uppercase;
+    @apply pt-20 text-base text-primary-accent uppercase;
   }
   h2 + p {
     @apply text-white text-3xl mt-3 mb-6 font-extrabold;
