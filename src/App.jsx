@@ -3,6 +3,7 @@ import About from "./About.jsx";
 import Projects from "./Projects.jsx";
 import TechStack from "./TechStack.jsx";
 import Experience from "./Experience.jsx";
+import Contact from "./Contact.jsx";
 export default function App() {
   return (
     <>
@@ -11,6 +12,7 @@ export default function App() {
       <Projects />
       <TechStack />
       <Experience />
+      <Contact />
     </>
   );
 }

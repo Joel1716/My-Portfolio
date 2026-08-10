@@ -29,6 +29,7 @@ export default function Home() {
         />
 
         {/* ambient gradient orbs */}
+
         <div
           className="absolute -inset-[30%] pointer-events-none will-change-transform z-0"
           style={{
@@ -40,11 +41,6 @@ export default function Home() {
           }}
         />
 
-        {/* availability badge */}
-
-        {/*   For avail badge -> bigger screen(sm)*/}
-
-        {/* name — the main event */}
         <div
           className="relative z-10 mx-3 flex flex-col
          flex-grow justify-center space-y-4 md: space-y-10"
@@ -81,8 +77,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        {/* footer strip */}
       </div>
     </section>
   );
