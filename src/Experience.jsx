@@ -5,21 +5,20 @@ export default function Experience() {
     {
       role: "Intern",
       company: "IHS",
-      duration: "Jan 2024",
-      location: "Victoria",
+      duration: "July 2024 - September 2024",
+      location: "Victoria Island, Lagos",
       actions: [
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur ipsa reprehenderit fugit provident ex deleniti sit fuga quo totam non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsum ea nostrum hic, soluta enim repellendus modi id. Pariatur, sapiente!",
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur ipsa reprehenderit fugit provident ex deleniti sit fuga quo totam non.",
+        "Interned across two departments which were GICL & Rural Telephony Departments, gaining hands-on exposure to telecom infrastructure and networking.",
+        "Documented completed project work across multiple states in Nigeria using Lepton, IHS's internal tracking software, and gained hands-on networking experience",
       ],
     },
     {
       role: "Intern",
-      company: "IHS",
-      duration: "Jan 2024",
-      location: "Victoria",
+      company: "CBNL",
+      duration: "July 2025 - September 2025",
+      location: "Lekki, Lagos",
       actions: [
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur ipsa reprehenderit fugit provident ex deleniti sit fuga quo totam non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsum ea nostrum hic, soluta enim repellendus modi id. Pariatur, sapiente!",
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur ipsa reprehenderit fugit provident ex deleniti sit fuga quo totam non.",
+        "Desgned and developed a responsive website prototype for CBNL, covering key pages including Home, About, Services, Solutions etc. Worked directly with the COO to gather requirements and incorporate feedback throughout development. The site wasn't ultimately adopted for official use, as my internship ended before the project could be finalized but the experience gave me hands-on practice",
       ],
     },
   ];

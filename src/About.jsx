@@ -3,9 +3,9 @@ export default function About() {
   return (
     <section className="px-4 pb-10">
       <h2>About</h2>
-      <p>Who I am</p>
+      <p>Who Am I?</p>
       <div className="grid lg:grid-cols-[1fr_1.5fr] gap-7 lg:gap-7 lg:mx-5">
-        <div className=" ax-w-100 mx-auto md:max-w-110 ">
+        <div className="max-w-100 mx-auto md:max-w-110 ">
           {/* Image Frame */}
           <div className="relative overflow-hidden rounded-2xl max-h-[450px]">
             <img

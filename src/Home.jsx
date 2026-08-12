@@ -12,7 +12,7 @@ export default function Home() {
   }, []);
 
   return (
-    <section className="flex flex-col relative min-h-screen overflow-hidden">
+    <section className="flex flex-col flex-1 relative min-h-screen overflow-hidden">
       <NavBar />
       <div
         ref={heroRef}
@@ -43,24 +43,24 @@ export default function Home() {
 
         <div
           className="relative z-10 mx-3 flex flex-col
-         flex-grow justify-center space-y-4 md: space-y-10"
+         flex-grow justify-center space-y-4 md: space-y-10 text-center"
         >
           <div>
-            <div className="relative z-10 inline-flex items-center gap-[0.55rem] mt-27 sm:mt-30 self-start font-mono text-[11px] tracking-[0.12em] uppercase text-slate-400 bg-[#0e0e1c]/60 border border-slate-800 backdrop-blur-md px-[0.9rem] py-[0.45rem] pl-[0.7rem] rounded-full sm:mb-6">
+            <div className="relative z-10 inline-flex items-center gap-[0.55rem] self-start font-mono text-base tracking-[0.12em] uppercase text-slate-400 ">
               Frontend Developer
             </div>
-            <h1 className="flex flex-col text-[clamp(4.1rem,13.5vw,13.5rem)] font-black tracking-[-0.05em]  sm:leading-[0.9]  m-0 select-none sm:px-9">
+            <h1 className="flex flex-col text-[clamp(4.5rem,12vw,11rem)] font-black tracking-[-0.05em]  sm:leading-[0.9]  m-0 select-none sm:px-9">
               <span className="block text-slate-100 transition-colors duration-300">
                 Joel
               </span>
-              <span className="block text-right text-slate-100 transition-colors duration-300">
+              <span className="block text-slate-100 transition-colors duration-300">
                 Ohikhena<span className="text-violet-400">.</span>
               </span>
             </h1>
           </div>
           {/*  */}
-          <div className="flex flex-col md:flex-row gap-3 sm:border-t border-slate-800 mb-3">
-            <p className="text-base font-light text-slate-400 leading-[1.75] max-w-[380px] sm:mt-2">
+          <div className="flex flex-col gap-3 mb-3 items-center">
+            <p className="text-lg font-light text-slate-400 leading-[1.75]">
               From campus marketplaces to biometric attendance systems, I build
               products that solve real problems
             </p>

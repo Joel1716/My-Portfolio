@@ -7,9 +7,9 @@ export default function EachExperience({ experience }) {
           <h3 className="text-base font-medium">{experience.role}</h3>
           <p className="text-primary-accent">{experience.company}</p>
         </div>
-        <div className="flex flex-col gap-[0.2rem]">
-          <p className="text-fg-muted text-sm">Jan 2024 - Jan 2025</p>
-          <p className="text-fg-muted/60 text-xs">Victoria Island Lagos</p>
+        <div className="flex flex-col gap-[0.2rem] text-right lg:text-left">
+          <p className="text-fg-muted text-sm">{experience.duration}</p>
+          <p className="text-fg-muted/70 text-xs">{experience.location}</p>
         </div>
       </div>
       <ul className="space-y-3">
