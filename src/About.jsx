@@ -49,12 +49,15 @@ export default function About() {
             what I enjoy most.
           </p>
           <div className="flex items-center gap-5 mt-5">
-            <button className="btn-purple">
-              <a href="#">Get in Touch</a>
-            </button>
-            <a href="" className="flex gap-2 items-center text-violet-400">
+            <a href="#" className="btn-purple">
+              Get in Touch
+            </a>
+            <a
+              href=""
+              className="flex gap-2 items-center text-violet-400 group"
+            >
               Download CV
-              <span>
+              <span className="group-hover:rotate-360 transition-transform duration-500">
                 <FaLongArrowAltRight />
               </span>
             </a>

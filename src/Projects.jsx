@@ -36,11 +36,14 @@ export default function Projects() {
     <section className="px-4">
       <h2>Projects</h2>
       <p>My Work</p>
-      <div className="flex overflow-x-auto snap-x snap-mandatory gap-10 scrollbar-none mr-2">
+      <div className="flex overflow-x-auto gap-10 scrollbar-none mr-2">
         {projects.map((project) => (
           <EachProject key={project.title} project={project} />
         ))}
       </div>
+      <p className="text-sm text-fg-muted mt-2 flex items-center gap-1">
+        Swipe to see more <span>→</span>
+      </p>
     </section>
   );
 }

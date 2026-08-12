@@ -21,9 +21,12 @@ export default function NavBar() {
             <a href="#">Experience</a>
           </li>
         </ul>
-        <button className="py-1 px-5 text-primary-accent border border-border-color rounded">
-          <a href="#">Hire Me</a>
-        </button>
+        <a
+          href="#"
+          className="py-1.5 px-5 text-primary-accent border border-border-color rounded hover:bg-accent-dim"
+        >
+          Hire Me
+        </a>
       </div>
       <div
         onClick={() => setNavShow((ns) => !ns)}
@@ -48,7 +51,7 @@ export default function NavBar() {
 
           <button
             onClick={() => setNavShow((ns) => !ns)}
-            className="py-2 text-primary-accent border border-border-color rounded uppercase font-bold"
+            className="py-2 text-primary-accent border border-border-color rounded uppercase font-bold hover:bg-accent-dim"
           >
             <a href="#">Hire Me</a>
           </button>

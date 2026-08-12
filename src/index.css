@@ -4,6 +4,7 @@
   --color-border-color: #a78bfa59;
   --color-primary: #07070f;
   --color-primary-accent: #a78bfa;
+  --color-accent-dim: rgba(167, 139, 250, 0.12);
   --color-fg-muted: #7878a0;
 }
 
@@ -18,19 +19,16 @@
   h2 + p {
     @apply text-white text-3xl mt-3 mb-6 font-extrabold;
   }
+  a {
+    @apply cursor-pointer;
+  }
 }
 
 @layer components {
   .btn-purple {
     @apply inline-flex items-center gap-2 text-sm font-semibold tracking-[0.01em] bg-violet-500 text-[#07070f] px-7 py-3 rounded transition-all duration-200 hover:opacity-90 hover:-translate-y-0.5;
   }
-}
-
-@layer utilities {
-  .navShow {
-    @apply flex flex-col absolute top-0 right-0 pt-20 pb-8 px-15 bg-white;
-  }
-  .navShow ul {
-    @apply flex-col;
+  .btn-purple-hover {
+    @apply bg-violet-500/70;
   }
 }

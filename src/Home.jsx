@@ -43,13 +43,13 @@ export default function Home() {
 
         <div
           className="relative z-10 mx-3 flex flex-col
-         flex-grow justify-center space-y-4 md: space-y-10 text-center"
+         flex-grow justify-center text-center"
         >
           <div>
             <div className="relative z-10 inline-flex items-center gap-[0.55rem] self-start font-mono text-base tracking-[0.12em] uppercase text-slate-400 ">
               Frontend Developer
             </div>
-            <h1 className="flex flex-col text-[clamp(4.5rem,12vw,11rem)] font-black tracking-[-0.05em]  sm:leading-[0.9]  m-0 select-none sm:px-9">
+            <h1 className="flex flex-col text-[clamp(4rem,11vw,11rem)] font-black tracking-[0.03em] leading-[1.4] sm:leading-[1.2] m-0 select-none sm:px-9">
               <span className="block text-slate-100 transition-colors duration-300">
                 Joel
               </span>
