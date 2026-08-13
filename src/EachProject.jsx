@@ -7,11 +7,7 @@ export default function EachProject({ project }) {
         {project.title}
       </h3>
       <div className="h-[280px] shrink-0">
-        <img
-          className="w-full h-full object-cover"
-          src="Personal-Pic.jpeg"
-          alt=""
-        />
+        <img className="w-full h-full object-cover" src={project.img} alt="" />
       </div>
       <div className="flex flex-col flex-1 min-h-0">
         <p className="text-justify leading-loose flex-1 min-h-0 overflow-y-auto scrollbar-none">
@@ -28,6 +24,7 @@ export default function EachProject({ project }) {
           {project.links.map((link) => (
             <a
               href={link.link}
+              target="_blank"
               className="flex gap-2 items-center text-fg-muted py-3 px-4 rounded text-sm border border-[#a78bfa33] hover:border-[rgba(255,255,255,0.2)] hover:text-[#f0f0f8]"
             >
               {link.name}
