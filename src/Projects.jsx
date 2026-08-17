@@ -6,7 +6,7 @@ export default function Projects() {
       title: "Haple",
       description:
         "Haple was built after noticing how hard it is for student sellers on campus to actually get seen, most end up relying on a few friends or word-of-mouth, even when they have something genuinely worth buying. Haple gives sellers a profile, lets buyers browse by category for exactly what they need, and connects them straight to a seller's WhatsApp with one click. We're keeping things simple for now, WhatsApp handles buyer-seller contact while we validate the idea, with more features planned as we grow. It's live with our first cohort of 20 sellers",
-      img: "HostelPal-laptop.jpeg",
+      img: "hiii.png",
       techs: ["React.js", "Tailwind"],
       links: [
         { name: "Live Site Url", link: "https://www.haple.shop/" },
@@ -27,7 +27,7 @@ export default function Projects() {
       title: "HostelPal",
       description: `Proxy check-ins are a real problem in university hostels — students checking in on behalf of absent roommates, which makes attendance records unreliable. I built HostelPal to solve this with a multi-layered verification system: matric number lookup, private IP subnet checking to confirm you're actually on-site, and facial recognition to make sure the right person is checking in.
       Students use a mobile app to check in, while hostel staff get a web dashboard with real-time and historical attendance records, replacing manual, paper-based tracking. I ran empirical testing with 11 volunteers to fine-tune the facial recognition accuracy. The whole project became my final year project`,
-      img: "HostelPal-Mockup.jpeg",
+      img: "hii.JPG",
       techs: ["React Native", "Tailwind", "React.js"],
       links: [
         { name: "Live Site Url", link: "google.com" },
