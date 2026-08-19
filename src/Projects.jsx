@@ -39,7 +39,7 @@ export default function Projects() {
     <section className="px-4">
       <h2>Projects</h2>
       <p>My Work</p>
-      <div className="flex overflow-x-auto snap-x snap-mandatory gap-10 scrollbar-none mr-2">
+      <div className="flex overflow-x-auto snap-x snap-mandatory gap-4 scrollbar-none -mx-4 px-4">
         {projects.map((project) => (
           <EachProject key={project.title} project={project} />
         ))}
