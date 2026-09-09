@@ -19,7 +19,10 @@ export default function About() {
             <div className="absolute inset-0 bg-gradient-to-t from-[#07070f]/90 via-transparent to-transparent pointer-events-none" />
           </div>
         </Reveal>
-        <Reveal delay={150} className="text-justify space-y-2 text-sm md:text-[15px] leading-loose">
+        <Reveal
+          delay={150}
+          className="text-justify space-y-2 text-sm md:text-[15px] leading-loose"
+        >
           <p>
             I'm a Frontend Developer based in Nigeria, and I like building
             things that solve problems people actually deal with. Also making
@@ -54,7 +57,8 @@ export default function About() {
               Get in Touch
             </a>
             <a
-              href=""
+              href="MyCV.pdf"
+              target="_blank"
               className="flex gap-2 items-center text-violet-400 group"
             >
               Download CV

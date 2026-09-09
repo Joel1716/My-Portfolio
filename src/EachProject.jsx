@@ -1,13 +1,24 @@
 // EachProject.jsx
 import { GoArrowUpRight } from "react-icons/go";
-export default function EachProject({ project }) {
+import Reveal from "./Reveal.jsx";
+
+export default function EachProject({ project, delay = 0 }) {
   return (
-    <div className="mb-4 flex flex-col gap-4 shrink-0 w-[85%] sm:w-[60%] md:w-[45%] lg:w-[31%] snap-start h-[600px] min-w-[340px]">
+    <Reveal
+      delay={delay}
+      className="mb-4 flex flex-col gap-4 shrink-0 w-[85%] sm:w-[60%] md:w-[45%] lg:w-[31%] snap-start h-[600px] min-w-[340px]"
+    >
       <h3 className="text-xl text-primary-accent uppercase shrink-0">
         {project.title}
       </h3>
-      <div className="h-[280px] shrink-0">
-        <img className="w-full h-full object-cover" src={project.img} alt="" />
+      <div className="aspect-[21/10] shrink-0">
+        <img
+          className={`w-full h-full object-cover ${
+            project.imgPosition ?? "object-top"
+          }`}
+          src={project.img}
+          alt={`${project.title} image`}
+        />
       </div>
       <div className="flex flex-col flex-1 min-h-0">
         <p className="text-justify leading-loose flex-1 min-h-0 overflow-y-auto scrollbar-none">
@@ -39,6 +50,6 @@ export default function EachProject({ project }) {
           ))}
         </div>
       </div>
-    </div>
+    </Reveal>
   );
 }

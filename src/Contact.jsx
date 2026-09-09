@@ -71,17 +71,31 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="px-4 mb-30">
+    <section id="contact" className="px-4">
       <h2>Contact</h2>
       {/* <p>Open to work</p> */}
       <p className="text-4xl font-extrabold leading-snug">
         Let's build <span className="text-primary-accent">something great</span>
       </p>
 
+      <Reveal delay={150} className="flex gap-7">
+        {contacts.map((contact) => (
+          <a
+            href={contact.link}
+            target="_blank"
+            className="flex items-center gap-1"
+            key={contact.name}
+          >
+            <span className="text-base ">{contact.icon}</span>
+            <p className="tracking-wider text-sm uppercase">{contact.name}</p>
+          </a>
+        ))}
+      </Reveal>
+
       <Reveal
         as="form"
         onSubmit={handleSubmit}
-        className="flex flex-col gap-4 max-w-md mt-8"
+        className="flex flex-col gap-4 max-w-md my-6"
       >
         <input
           type="text"
@@ -137,20 +151,6 @@ export default function Contact() {
         >
           {status === "sending" ? "Sending..." : "Send message"}
         </button>
-      </Reveal>
-
-      <Reveal delay={150} className="flex gap-7 mt-8">
-        {contacts.map((contact) => (
-          <a
-            href={contact.link}
-            target="_blank"
-            className="flex items-center gap-1"
-            key={contact.name}
-          >
-            <span className="text-base ">{contact.icon}</span>
-            <p className="tracking-wider text-sm uppercase">{contact.name}</p>
-          </a>
-        ))}
       </Reveal>
 
       <Toast
