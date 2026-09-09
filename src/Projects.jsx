@@ -36,7 +36,7 @@ export default function Projects() {
     },
   ];
   return (
-    <section className="px-4">
+    <section className="px-4" id="work">
       <h2>Projects</h2>
       <p>My Work</p>
       <div className="flex overflow-x-auto snap-x snap-mandatory gap-4 scrollbar-none -mx-4 px-4">
@@ -44,7 +44,7 @@ export default function Projects() {
           <EachProject key={project.title} project={project} />
         ))}
       </div>
-      <p className="text-sm text-fg-muted mt-2 flex items-center gap-1">
+      <p className="text-sm text-primary-accent mt-2 flex items-center gap-1">
         Swipe to see more <span>→</span>
       </p>
     </section>

@@ -1,5 +1,22 @@
 @import "tailwindcss";
 
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(0.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @theme {
   --color-border-color: #a78bfa59;
   --color-primary: #07070f;
@@ -21,6 +38,9 @@
   }
   a {
     @apply cursor-pointer;
+  }
+  section {
+    @apply scroll-mt-4;
   }
 }
 

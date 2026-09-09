@@ -23,7 +23,7 @@ export default function Experience() {
     },
   ];
   return (
-    <section className="px-4 lg:pr-30">
+    <section id="experience" className="px-4 lg:pr-30">
       <h2>Experience</h2>
       <p className="leading-snug">Where I have worked</p>
       <div className="pl-4 relative before:content-[''] before:bottom-0 before:absolute before:left-4 before:top-[0.6rem] before:bg-white before:w-[1px] space-y-10">

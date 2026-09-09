@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-import NavBar from "./NavBar";
 
 export default function Home() {
   const heroRef = useRef(null);
@@ -12,8 +11,7 @@ export default function Home() {
   }, []);
 
   return (
-    <section className="flex flex-col flex-1 relative min-h-screen overflow-hidden">
-      <NavBar />
+    <section id="home" className="flex flex-col flex-1 relative min-h-screen overflow-hidden">
       <div
         ref={heroRef}
         className="flex flex-col flex-1 justify-between  text-slate-100 select-none"
