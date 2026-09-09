@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import Toast from "./Toast";
+import Reveal from "./Reveal";
 
 const FORMSPREE_ENDPOINT = `https://formspree.io/f/${
   import.meta.env.VITE_FORMSPREE_FORM_ID
@@ -77,7 +78,8 @@ export default function Contact() {
         Let's build <span className="text-primary-accent">something great</span>
       </p>
 
-      <form
+      <Reveal
+        as="form"
         onSubmit={handleSubmit}
         className="flex flex-col gap-4 max-w-md mt-8"
       >
@@ -135,9 +137,9 @@ export default function Contact() {
         >
           {status === "sending" ? "Sending..." : "Send message"}
         </button>
-      </form>
+      </Reveal>
 
-      <div className="flex gap-7 mt-8">
+      <Reveal delay={150} className="flex gap-7 mt-8">
         {contacts.map((contact) => (
           <a
             href={contact.link}
@@ -149,7 +151,7 @@ export default function Contact() {
             <p className="tracking-wider text-sm uppercase">{contact.name}</p>
           </a>
         ))}
-      </div>
+      </Reveal>
 
       <Toast
         message={toast?.message}

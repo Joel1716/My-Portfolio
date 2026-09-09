@@ -1,5 +1,6 @@
 // Projects.jsx
 import EachProject from "./EachProject.jsx";
+import Reveal from "./Reveal.jsx";
 export default function Projects() {
   const projects = [
     {
@@ -39,11 +40,11 @@ export default function Projects() {
     <section className="px-4" id="work">
       <h2>Projects</h2>
       <p>My Work</p>
-      <div className="flex overflow-x-auto snap-x snap-mandatory gap-4 scrollbar-none -mx-4 px-4">
+      <Reveal className="flex overflow-x-auto snap-x snap-mandatory gap-4 scrollbar-none -mx-4 px-4">
         {projects.map((project) => (
           <EachProject key={project.title} project={project} />
         ))}
-      </div>
+      </Reveal>
       <p className="text-sm text-primary-accent mt-2 flex items-center gap-1">
         Swipe to see more <span>→</span>
       </p>

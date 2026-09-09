@@ -19,7 +19,12 @@ export default function NavBar() {
         <ul className={`flex items-center gap-9 text-[16px] text-[#7878a0]`}>
           {links.map((link) => (
             <li key={link.name}>
-              <a href={link.href}>{link.name}</a>
+              <a
+                href={link.href}
+                className="transition-colors duration-200 hover:text-white"
+              >
+                {link.name}
+              </a>
             </li>
           ))}
         </ul>
@@ -42,7 +47,11 @@ export default function NavBar() {
           <ul className="flex flex-col gap-4 text-base text-slate-300 font-medium">
             {links.map((link) => (
               <li key={link.name}>
-                <a href={link.href} onClick={closeNav}>
+                <a
+                  href={link.href}
+                  onClick={closeNav}
+                  className="transition-colors duration-200 hover:text-white"
+                >
                   {link.name}
                 </a>
               </li>

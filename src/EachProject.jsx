@@ -15,7 +15,10 @@ export default function EachProject({ project }) {
         </p>
         <div className="flex gap-2 mt-4 flex-wrap shrink-0">
           {project.techs.map((tech) => (
-            <div className="bg-[#a78bfa1f] text-primary-accent py-1 px-6 rounded text-sm border border-[#a78bfa33]">
+            <div
+              key={tech}
+              className="bg-[#a78bfa1f] text-primary-accent py-1 px-6 rounded text-sm border border-[#a78bfa33]"
+            >
               {tech}
             </div>
           ))}
@@ -23,6 +26,7 @@ export default function EachProject({ project }) {
         <div className="flex gap-2 mt-5 shrink-0">
           {project.links.map((link) => (
             <a
+              key={link.name}
               href={link.link}
               target="_blank"
               className="flex gap-2 items-center text-fg-muted py-3 px-4 rounded text-sm border border-[#a78bfa33] hover:border-[rgba(255,255,255,0.2)] hover:text-[#f0f0f8]"

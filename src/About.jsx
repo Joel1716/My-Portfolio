@@ -1,11 +1,12 @@
 import { FaLongArrowAltRight } from "react-icons/fa";
+import Reveal from "./Reveal";
 export default function About() {
   return (
     <section id="about" className="px-4 pb-10">
       <h2>About</h2>
       <p>Who Am I?</p>
       <div className="grid lg:grid-cols-[1fr_1.5fr] gap-7 lg:gap-7 lg:mx-5">
-        <div className="max-w-100 mx-auto md:max-w-110 ">
+        <Reveal className="max-w-100 mx-auto md:max-w-110 ">
           {/* Image Frame */}
           <div className="relative overflow-hidden rounded-2xl max-h-[450px]">
             <img
@@ -17,8 +18,8 @@ export default function About() {
             {/* Subtle Gradient Shadow Overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-[#07070f]/90 via-transparent to-transparent pointer-events-none" />
           </div>
-        </div>
-        <div className="text-justify space-y-2 text-sm md:text-[15px] leading-loose">
+        </Reveal>
+        <Reveal delay={150} className="text-justify space-y-2 text-sm md:text-[15px] leading-loose">
           <p>
             I'm a Frontend Developer based in Nigeria, and I like building
             things that solve problems people actually deal with. Also making
@@ -62,7 +63,7 @@ export default function About() {
               </span>
             </a>
           </div>
-        </div>
+        </Reveal>
       </div>
     </section>
   );

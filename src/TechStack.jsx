@@ -1,3 +1,5 @@
+import Reveal from "./Reveal";
+
 export default function TechStack() {
   const skills = [
     "Javascript",
@@ -11,10 +13,12 @@ export default function TechStack() {
       <h2>Stack</h2>
       <p>Skills and Tools</p>
       <div className="flex flex-wrap gap-4 items-center">
-        {skills.map((skill) => (
-          <div className="text-fg-muted py-2 px-5 rounded text-sm border border-[#a78bfa33] ">
-            {skill}
-          </div>
+        {skills.map((skill, i) => (
+          <Reveal key={skill} delay={i * 75}>
+            <div className="text-fg-muted py-2 px-5 rounded text-sm border border-[#a78bfa33] ">
+              {skill}
+            </div>
+          </Reveal>
         ))}
       </div>
     </section>
